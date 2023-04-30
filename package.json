@@ -1,0 +1,24 @@
+{
+  "name": "lazy-javascript",
+  "version": "1.0.9",
+  "description": "LazyJS is a powerful JavaScript library that enables lazy and functional manipulation of arrays and JSON data. With its chainable methods, operations on arrays are deferred until the final result is requested, and the library also supports parallel processing. The accompanying JsonHandler class provides an intuitive interface for working with JSON data, simplifying caching and sharding.",
+  "main": "lazy.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Postr-Inc/lazy-javascript.git"
+  },
+  "author": "Malik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Postr-Inc/lazy-javascript/issues"
+  },
+  "homepage": "https://github.com/Postr-Inc/lazy-javascript/blob/main/README.md",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
